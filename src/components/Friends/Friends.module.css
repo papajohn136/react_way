@@ -1,0 +1,39 @@
+.userAvatar {
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit:cover;
+
+    margin-top: 10px;
+
+
+}
+
+.wrapper {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+
+}
+
+.selectedPage {
+    font-weight: bold;
+    color: brown;
+    /* font-size: 30px; */
+
+}
+
+
+.pageNumber {
+    padding: 3px;
+    cursor: pointer;
+
+}
+
+.pageNumber:hover {
+
+}

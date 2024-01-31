@@ -1,0 +1,88 @@
+
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 2fr 10fr;
+
+    margin-left: 10px;
+    margin-top: 10px;
+
+    line-height: 29px;
+ 
+    
+}
+
+.dialog_img {
+    /* min-width: 100%; */
+    width: 1040px;
+    max-height: 430px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.3;
+  
+  }
+
+.dialogsItems {
+    
+
+  }
+
+.dialogsItems a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* .dialogsItems a.activeLink {
+  color: brown;
+} */
+
+/* .item a.activeLink {
+    color: brown;
+  } */
+
+.dialogsItems a.activeLink {
+  color: brown;
+  border: 1px solid white;
+
+  /* background-color: rgb(46, 42, 42); */
+  border-radius: 5px;
+
+  /* margin: 15px; */
+  padding: 4px 5px;
+
+  /* font-size: 24px; */
+  transition: .5s;
+
+  margin: 10px;
+
+}
+
+.dialogsItems a:hover {
+  font-size: 17px;
+  transition: .5s;
+  opacity: .8;
+}
+
+.dialog {
+
+}
+
+.messages {
+   
+
+
+}
+
+.message {
+
+}
+
+.dialogsLogo {
+
+}
+
+.avatar {
+  width: 90px;
+  border-radius: 50%;
+}

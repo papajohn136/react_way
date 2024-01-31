@@ -1,0 +1,17 @@
+
+
+.music {
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.dialog_img {
+    /* min-width: 100%; */
+    width: 1040px;
+    max-height: 430px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.3;
+  
+  }

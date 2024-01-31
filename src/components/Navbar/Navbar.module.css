@@ -1,0 +1,103 @@
+
+
+:root {
+    --main-color: #252526;
+    --text-color: white;
+  }
+
+.nav {
+    grid-area: n;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 29px;
+  }
+
+.lastItem {
+
+    /* font-size: 30px; */
+    margin-top: 30px;
+    /* transition: ease-in; */
+  }
+
+  .lastItem:hover {
+    /* font-size: 33px; */
+  }
+
+  /* .item {
+    color: var(--text-color);
+    margin: 10px;
+  } */
+
+  .item a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  .item a:hover {
+    font-size: 19px;
+    transition: .5s;
+    opacity: .8;
+  }
+
+
+  .item a.activeLink {
+    color: brown;
+    border: 1px solid white;
+
+    /* background-color: rgb(46, 42, 42); */
+    border-radius: 5px;
+
+    /* margin: 15px; */
+    padding: 4px 15px;
+
+    font-size: 24px;
+    transition: .5s;
+
+    margin: 15px;
+
+
+
+  }
+
+
+
+
+.friendsWrapper {
+
+  margin: 20px 0;
+
+}
+
+.friendsInner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* column-gap: 20px; */
+
+
+}
+
+.friendItem {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.friendLogo {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  background: #456BD9;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  height: 50px;
+  width: 50px;
+
+}
+
+.friendName {
+  font-size: 15px;
+  
+
+}

@@ -1,0 +1,28 @@
+/* :root {
+    --main-color: #252526;
+    --text-color: white;
+  } */
+
+/* .content {
+    grid-area: c;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border-radius: 10px;
+  
+  }
+  
+  .content img {
+    min-width: 100%;
+    max-height: 430px;
+    object-fit: cover;
+    border-radius: 10px;
+  
+  } */
+
+  .postBlock {
+    padding: 10px;
+  }
+
+  .posts {
+    margin-top: 10px;
+  }

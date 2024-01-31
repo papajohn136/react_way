@@ -1,0 +1,40 @@
+/* переменные цвет*/
+
+:root {
+  --main-color: #252526;
+  --text-color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+
+  width: 1200px;
+  margin: 0 auto;
+
+  grid-template-areas: 
+  'h h'
+  'n c';
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border-radius: 10px;
+
+  
+  }
+
+ 
+  
+
+
+
